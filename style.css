@@ -1,16 +1,64 @@
 body {
     text-align: center;
-    background-color: cornsilk;
+    background-color: bisque;
 }
-div{
+
+#Grid {
+    color: crimson;
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+}
+
+#Slide {
+    color: crimson;
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+}
+
+p {
+    color: coral;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: red;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
     margin-top: 15px;
-}
-.image-section{
-    display: flex;
-    justify-content: center;
-}
-.section-style{
-    margin-right: 25px;
-    margin-left: 25px;
-        background-color:springgreen;
+    color: blue;
+    font-size: 30px;
 }
